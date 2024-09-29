@@ -1,0 +1,35 @@
+.btn {
+    border: .5px solid #C62128;
+    border-radius: 5px;
+    padding: .5rem 1rem;
+    margin: 12px 0;
+    display: inline-block;
+    background-color: #C62128;
+    color: #fff;
+    text-decoration: none;
+    opacity: 1;
+    cursor: pointer;
+    height: 20px;
+    width: 70px;
+    font-size: 18px;
+    text-align: center;
+}
+.btn:hover {
+    opacity: 0.5;
+}
+.admin-content {
+    padding-left: 30px;
+}
+.admin-content-top {
+    border-bottom: 1px solid #ddd;
+    width: 100%;
+}
+.admin-content-top h2 {
+   margin-top: 0;
+   margin-bottom: 6px;
+   text-transform: uppercase;
+}
+.admin-content-bottom-sua input {
+    width: 300px;
+    height: 30px;
+}

@@ -1,0 +1,132 @@
+* {
+    margin: 0; 
+    padding: 0; 
+    box-sizing: border-box;
+}
+.admin-content {
+    display: flex;
+    justify-content: space-between;
+}
+.admin-content-left {
+    width: 25%;
+    height: auto;
+    padding: 0 12px;
+    background-color: rgb(85,214,194);
+}
+.admin-content-left img {
+    width: 100%;
+    margin: 10px 0;
+}
+.admin-content-left h3 {
+    text-align: center;
+    color: #fff;
+   padding: 6px 0;
+}
+.admin-content-left-bottom {
+    padding: 0 12px;
+}
+.admin-content-left-menu > li {
+    list-style-type: none;
+    padding: 12px 20px;
+    margin-bottom: 20px;
+    font-size: 18px;
+    border: 1px solid #fff;
+    background-color: #fff;
+    border-radius: 20px;
+    cursor: pointer;
+}
+.admin-content-left-menu > li:hover {
+    background-color: #C62128;
+    transition: all 0.5s ease;
+}
+.admin-content-left-menu > li a {
+    text-decoration: none;
+    color: #000;
+}
+.admin-content-left-menu > li a:hover {
+    color: #fff;
+}
+.admin-content-right {
+    width: 75%;
+}
+.admin-content-left-menu .active {
+    background-color: #C62128;
+    color: #fff;
+}
+.admin-content-left-menu .active a{
+    color: #fff;
+}
+.admin-content-right {
+    width: 75%;
+}
+.admin-content-right-title {
+    margin: 10px 12px;
+    border-bottom: 1px solid #ddd;
+}
+.admin-content-right-title h1 {
+    text-align: center;
+    padding-bottom: 12px;
+}
+.admin-content-right-content {
+    margin-top: 20px;
+    padding: 0 12px;
+}
+.btn {
+    border: .5px solid #C62128;
+    border-radius: 5px;
+    padding: .5rem 1rem;
+    margin: .5rem 0;
+    display: inline-block;
+    background-color: #C62128;
+    color: #fff;
+    text-decoration: none;
+    opacity: 1;
+    cursor: pointer;
+}
+.btn:hover {
+    opacity: 0.5;
+}
+.admin-content-right-content form {
+    margin-top: 12px;
+}
+.admin-content-right-content form label {
+    font-size: 20px;
+}
+.admin-content-right-content form input {
+    height: 30px;
+    width: 400px;
+    margin: 10px 0 ; 
+    padding-left: 12px;
+}
+.admin-content-right-content form textarea {
+    padding-left: 12px;
+    padding-top: 10px;
+}
+.admin-content-right-content form select {
+    height: 30px;
+    width: 150px;
+}
+.admin-out {
+    list-style-type: none;
+    padding: 12px 20px;
+    margin-bottom: 20px;
+    font-size: 18px;
+    border-radius: ;
+    cursor: pointer;
+    width: 130px;
+}
+.admin-content-left-top {
+    border-bottom: 1px solid #fff;
+}
+.admin-content-right {
+    padding-left: 12px;
+}
+.admin-content-right-top {
+    padding-bottom: 12px;
+    margin-top: 20px;
+    text-align: center;
+    border-bottom: 1px solid #ddd;
+}
+.admin-content-bottom table {
+    border-collapse: collapse;
+}

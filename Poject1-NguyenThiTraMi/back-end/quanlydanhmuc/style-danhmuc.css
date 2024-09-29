@@ -1,0 +1,50 @@
+.btn {
+    border: .5px solid #C62128;
+    border-radius: 5px;
+    padding: .5rem 1rem;
+    margin: 12px 0;
+    display: inline-block;
+    background-color: #C62128;
+    color: #fff;
+    text-decoration: none;
+    opacity: 1;
+    cursor: pointer;
+    height: 20px;
+    width: 70px;
+    font-size: 18px;
+    text-align: center;
+}
+.btn:hover {
+    opacity: 0.5;
+}
+.admin-content-top {
+    border-bottom: 1px solid #ddd;
+    width: 100%;
+}
+.admin-content-top h2 {
+   margin-top: 0;
+   margin-bottom: 6px;
+   text-transform: uppercase;
+}
+.admin-content-bottom h2 {
+    text-align: center;
+}
+.admin-content-bottom table {
+    border-collapse: collapse;
+}
+.admin-content-bottom table, th, td {
+    border-left: 1px solid #000;
+}
+.admin-content-bottom-sua h2 {
+    text-align: center;
+}
+.admin-content-bottom-sua label,input {
+    height: 30px;
+    width: 400px;
+    margin: 12px 20px;
+    padding-left: 12px;
+}
+.btnSua:hover, .btnXoa:hover {
+    color: red; 
+    cursor: pointer;
+}
